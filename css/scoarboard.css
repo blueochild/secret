@@ -1,0 +1,18 @@
+/* fixed_nav */
+.header{ width : 100%; height: 60px; background-color: rgb(36, 36, 36); padding: 0 100px;}
+.nav_bg{ background-color: rgb(17, 17, 17); }
+.nav_logo{ width: 30px; height : 30px; margin : 0 10px 0 0;}
+
+.contents a:hover{ text-decoration: none;}
+
+.box{ width:100%; height: 100%; position:relative; background-color:rgb(17, 17, 17) ;}
+
+.Rank_title{ width: 80%; height : 100px; margin : 10% 10%; text-align: center; color: white;
+   border-bottom: 1px solid rgb(39, 39, 39); padding-top: 20px;}
+
+.rank_table{ margin : 55px 10% 0; text-align: center; color : white}
+.table{ background-color: rgb(29, 29, 29);}
+.table th,td{ color : white;}
+.table tr{ border: 1px solid rgb(54, 54, 54);}
+.box{ padding : 3%;}
+/* .table{ margin-top : 200px;} */

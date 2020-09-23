@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>Root CTF</title>
+    <link rel="stylesheet" href="./css/common.css">
+
+    <!-- CSS only -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <!-- JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="js/common.js"></script>
+    <script src="js/time.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script type="text/javascript">
+      var bDisplay = true;
+      function doDisplay(){
+        var con = document.getElementById("myDIV");
+        if(con.style.display=='block'){
+          con.style.display = 'none';
+        }else{
+          con.style.display = 'block';
+        }
+      }
+      </script>
+</head>
+<body>
+    <div class="box box_bg">
+        <header class="header fixed-top nav_bg ">
+            <nav class="navbar navbar-expand-lg navbar-dark ">
+                <a href="index.html"><img class="nav_logo" src="img/logo.png" alt="logo"></a>
+                <a class="navbar-brand" href="index.html">Root</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                          <a class="nav-link" href="User.html">User</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="Scoreboard.html">Scoreboard</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="Challenges.html">Challenges</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav mr-sm-2">
+                        <li class="nav-item">
+                            <a class="nav-link" href="login.html">Login</a>
+                          </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="register.html">Register</a>
+                        </li>
+                    </ul>
+                </div>
+              </nav>
+        </header>
+        <div class="contents">
+          <h1 class="title" id="start_text">대회 시작까지</h1>
+          <!-- <a href="javascript:doDisplay();">
+          </a> -->
+          <div class="timer">
+            <p>
+              <div id="HourCountdown"> </div> 
+            </p>
+          </div>
+        </div>
+    </div>
+
+    <div class="box1" id="box1_top">
+      <div class="container1">
+        <div class="fadeinleft">
+            <img src="./img/logo.png" alt="">
+            <h1>ROOT CTF</h1>
+        </div>
+        <div class="fadeinleft">pwnable</div>
+        <div class="fadeinleft">web hacking</div>
+        <div class="fadeinleft">reversing</div>
+        <div class="fadeinleft">misc</div>
+      </div>
+      <div class="container2">
+        <div class="fadeinleft"> 
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure tenetur debitis excepturi voluptas, sunt quidem fugit cumque similique, sapiente aut quibusdam, culpa eum? Vero omnis eligendi qui beatae explicabo architecto iste deleniti odit corrupti eum quos voluptas eaque dolore unde doloremque et inventore dolorem, dolores ea quidem consequatur. Aspernatur reiciendis, iure ullam rem libero veritatis amet ex temporibus quis dolores sequi, assumenda reprehenderit eaque quaerat recusandae fugiat nulla distinctio natus voluptas quidem ipsum in. Nulla eveniet provident cumque minima voluptatem, et modi quidem deserunt unde sint harum explicabo! Dolorem nisi illo eaque ipsum, ex, cum, adipisci nihil odit velit architecto omnis inventore voluptates in corporis! Quo ea voluptates repudiandae id earum aperiam sunt neque, deleniti at veritatis nesciunt nisi, aut harum maxime quae voluptatum laboriosam? Animi, nemo, blanditiis id qui placeat, quas velit fugit doloribus quos totam quis? Beatae, veniam id? Aspernatur magnam optio vero odit iusto cupiditate! Veniam quos, porro placeat esse ut velit mollitia quaerat voluptate delectus dolore.
+        </div>
+      </div>
+    </div>
+
+    <div class="box1">
+      <div class="container1">
+        <div class="fadeinleft">
+            <img src="./img/logo.png" alt="">
+            <h1>CTF Rule</h1>
+        </div>
+      </div>
+      <div class="container2">
+        <div class="fadeinleft"> 
+          <ul>
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, rerum.</li>
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, rerum.</li>
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, rerum.</li>
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, rerum.</li>
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, rerum.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    
+    </div>
+</body>
+</html>
